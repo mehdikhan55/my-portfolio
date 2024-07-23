@@ -53,20 +53,20 @@ function HeroSection() {
             >
               <FaFacebook size={30} />
             </Link>
-            <Link
+            {/* <Link
               href={personalData.leetcode}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <SiLeetcode size={30} />
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               href={personalData.twitter}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <FaTwitterSquare size={30} />
-            </Link>
+            </Link> */}
           </div>
 
           <div className="flex items-center gap-3">
@@ -85,7 +85,7 @@ function HeroSection() {
           </div>
 
         </div>
-        <div className="order-1 lg:order-2 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]">
+        <div className="order-1 lg:order-2 from-[#24130de7] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]">
           <div className="flex flex-row">
             <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
             <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
@@ -108,7 +108,13 @@ function HeroSection() {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">Abu Said</span>
+                <span className="text-amber-300">Mehdi Ali</span>
+                <span className="text-gray-400">{`',`}</span>
+              </div>
+              <div>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">stack:</span>
+                <span className="text-gray-400">{`'`}</span>
+                <span className="text-amber-300">MERN</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
@@ -118,23 +124,33 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">NextJS</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Redux</span>
-                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Express</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">NestJS</span>
+                <span className="text-amber-300">React Native</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MySql</span>
+                <span className="text-amber-300">Firebase</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MongoDB</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Docker</span>
+                <span className="text-amber-300">JavaScript</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">AWS</span>
+                <span className="text-amber-300">CSS</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Tailwind CSS</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">BootStrap</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">MySql</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">WordPress</span>
+                <span className="text-gray-400">{"'],"}</span>
+                <span className="text-amber-300">WooCommerce</span>
+                <span className="text-gray-400">{"'],"}</span>
+                <span className="text-amber-300">Elementor</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">hardWorker:</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">problemSolver:</span>
                 <span className="text-orange-400">true</span>
                 <span className="text-gray-400">,</span>
               </div>
@@ -144,10 +160,11 @@ function HeroSection() {
                 <span className="text-gray-400">,</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">problemSolver:</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">hardWorker:</span>
                 <span className="text-orange-400">true</span>
                 <span className="text-gray-400">,</span>
               </div>
+              
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-green-400">hireable:</span>
                 <span className="text-orange-400">function</span>
