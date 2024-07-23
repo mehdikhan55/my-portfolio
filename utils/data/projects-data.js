@@ -64,16 +64,6 @@ export const projectsData = [
         image: ayla,
         role: 'Full Stack Developer',
     },
-    {
-        id: 7,
-        name: 'Artik',
-        description: " Developed a GPT-powered web app, enabling users to generate articles based on a given keyword of selected word count. Applied real-time word count tracking enhancing the UX. ",
-        tools: ['NextJS', 'JavaScript', 'CSS'],
-        code: '',
-        demo: '',
-        image: ayla,
-        role: 'Full Stack Developer',
-    },
 ];
 
 
