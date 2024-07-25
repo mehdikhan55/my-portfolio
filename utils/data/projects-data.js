@@ -8,7 +8,7 @@ export const projectsData = [
         tools: ['Express', 'MongoDB', 'MVC', 'JavaScript', 'Mongoose', 'Mongo Atlas', 'CSS', 'Bootstrap', 'Joi', 'Claudinary', 'Mapbox'],
         role: 'Full Stack Developer',
         code: '',
-        demo: '',
+        demo: 'https://wanderpack.onrender.com/',
         image: '',
     },
     {
@@ -19,7 +19,7 @@ export const projectsData = [
         role: 'Full Stack Developer',
         code: '',
         demo: '',
-        image: travel,
+        image: '',
     },
     {
         id: 3,
@@ -29,7 +29,7 @@ export const projectsData = [
         code: '',
         role: 'Full Stack Developer',
         demo: '',
-        image: realEstate,
+        image: '',
     },
     {
         id: 4,
