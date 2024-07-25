@@ -11,7 +11,6 @@ import 'swiper/css/pagination';
 
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 
-
 const Projects = () => {
 
   return (
@@ -49,8 +48,8 @@ const Projects = () => {
               return (
                 <SwiperSlide key={index}>
                   <div
-                    className="w-full mx-auto max-w-2xl flex flex-col min-h-[24rem] lg:min-h-[30rem] max-h-[20rem] lg:max-h-[30rem]  mb-12"
-                  >
+                    className="w-full mx-auto max-w-3xl flex flex-col min-h-[26rem] lg:min-h-[33rem] max-h-[20rem] lg:max-h-[30rem]  mb-12"
+                  > 
                     <ProjectCard project={project} />
                   </div>
                 </SwiperSlide>
