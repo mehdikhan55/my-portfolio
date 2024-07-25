@@ -49,7 +49,6 @@ const Projects = () => {
               return (
                 <SwiperSlide key={index}>
                   <div
-                    key={index}
                     className="w-full mx-auto max-w-2xl flex flex-col min-h-[20rem] lg:min-h-[30rem] max-h-[20rem] lg:max-h-[30rem]  mb-12"
                   >
                     <ProjectCard project={project} />
