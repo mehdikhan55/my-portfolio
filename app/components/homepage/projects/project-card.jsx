@@ -15,7 +15,7 @@ function ProjectCard({ project }) {
     <div className=" box-border flex flex-col items-center justify-center rounded shadow-[0_0_30px_0_rgba(0,0,0,0.3)] transition-all duration-[5s] flex-1 overflow-y-hidden">
 
 
-      <div className="  flex-1 from-[#1e240d] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] w-full scr1 ">
+      <div className="  flex-1 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] w-full scr1 ">
         <div className="flex flex-row">
           <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
           <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
