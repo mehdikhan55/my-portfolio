@@ -1,11 +1,22 @@
+'use client'
+import React from 'react';
 import { projectsData } from '@/utils/data/projects-data';
 import ProjectCard from './project-card';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+
+import { EffectCoverflow, Pagination } from 'swiper/modules';
+
 
 const Projects = () => {
 
   return (
     <div id='projects' className="relative z-50  my-12 lg:my-24">
-      <div className="sticky top-10">
+      <div className="">
         <div className="w-[80px] h-[80px] bg-violet-100 rounded-full absolute -top-3 left-0 translate-x-1/2 filter blur-3xl  opacity-30"></div>
         <div className="flex items-center justify-start relative">
           <span className="bg-[#1a1443] absolute left-0  w-fit text-white px-5 py-3 text-xl rounded-md">
@@ -15,9 +26,41 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="pt-24">
+      <div className=" pt-14 ">
         <div className="flex flex-col gap-6">
-          {projectsData.map((project, index) => (
+        <Swiper
+        effect={'coverflow'}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={'auto'}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        }}
+        pagination={true}
+        modules={[EffectCoverflow, Pagination]}
+        className="mySwiper"
+      >
+  
+          {projectsData.map((project, index) => {
+            return (
+              <SwiperSlide>
+              <div
+                key={index}
+                className="w-full mx-auto max-w-2xl flex flex-col min-h-[20rem] lg:min-h-[30rem] max-h-[20rem] lg:max-h-[30rem]  mb-12"
+              >
+                  <ProjectCard project={project} />
+                </div>
+                </SwiperSlide>
+            );
+          })}
+
+
+</Swiper>
+          {/* {projectsData.map((project, index) => (
             <div
               id={`sticky-card-${index + 1}`}
               key={index}
@@ -27,7 +70,7 @@ const Projects = () => {
                 <ProjectCard project={project} />
               </div>
             </div>
-          ))}
+          ))} */}
         </div>
       </div>
     </div>

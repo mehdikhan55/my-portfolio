@@ -1,7 +1,4 @@
-import ayla from '/public/image/ayla.jpg';
-import crefin from '/public/image/crefin.jpg';
-import realEstate from '/public/image/real-estate.jpg';
-import travel from '/public/image/travel.jpg';
+
 
 export const projectsData = [
     {
@@ -12,7 +9,7 @@ export const projectsData = [
         role: 'Full Stack Developer',
         code: '',
         demo: '',
-        image: crefin,
+        image: '',
     },
     {
         id: 2,
@@ -41,7 +38,7 @@ export const projectsData = [
         tools: ['React', 'Redux Toolkit', 'Tailwind CSS', 'Rapid API'],
         code: '',
         demo: '',
-        image: ayla,
+        image: '',
         role: 'Full Stack Developer',
     },
     {
@@ -51,32 +48,17 @@ export const projectsData = [
         tools: ['React', 'Leaflet JS', 'CSS'],
         code: '',
         demo: '',
-        image: ayla,
+        image: '',
         role: 'Full Stack Developer',
     },
     {
         id: 6,
         name: 'Note It',
-        description: "Built fully functional Note-Taking Mobile Application using React Native, featuring CRUD operations and authentication. • Ensured the security and accessibility of notes by using Firebase for the backend, providing a reliable storage solution.",
+        description: "Built fully functional Note-Taking Mobile Application using React Native, featuring CRUD operations and authentication. • Ensured the security and accessibility of notes by using Firebase for the backend, providing a reliable storage solution.Esured the security and accessibility of notes by using Firebase for the backend, providing a reliable storage solution.",
         tools: ['React Native', 'JavaScript', 'Firebase Firestore', 'Firebase Authentication'],
         code: '',
         demo: '',
-        image: ayla,
+        image: '',
         role: 'Full Stack Developer',
     },
 ];
-
-
-// Do not remove any property.
-// Leave it blank instead as shown below
-
-// {
-//     id: 1,
-//     name: '',
-//     description: "",
-//     tools: [],
-//     role: '',
-//     code: '',
-//     demo: '',
-//     image: crefin,
-// },
