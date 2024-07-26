@@ -76,11 +76,11 @@ function ProjectCard({ project }) {
             <div className="ml-4 lg:ml-8 mr-2">
               <span className="text-white">Description:</span>
               {/* <span className="text-cyan-400">{' ' + `${project.description}`}</span> */}
-              <span className='text-cyan-400'>"</span>
+              <span className='text-cyan-400'>&quot;</span>
               {descriptionLines.map((line, index) => (
                 <p key={index} className="text-cyan-400 ml-4">{line}</p>
               ))}
-              <span className='text-cyan-400'>"</span>
+              <span className='text-cyan-400'>&quot;</span>
               <span className="text-gray-400">,</span>
             </div>
 
