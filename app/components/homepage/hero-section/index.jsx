@@ -143,9 +143,9 @@ function HeroSection() {
                 <span className="text-amber-300">MySql</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">WordPress</span>
-                <span className="text-gray-400">{"'],"}</span>
+                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">WooCommerce</span>
-                <span className="text-gray-400">{"'],"}</span>
+                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Elementor</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
