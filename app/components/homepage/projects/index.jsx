@@ -25,7 +25,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className=" pt-14 ">
+      <div className=" pt-9 ">
         <div className="flex flex-col gap-6">
           <Swiper
             effect={'coverflow'}
@@ -42,13 +42,14 @@ const Projects = () => {
             pagination={true}
             modules={[EffectCoverflow, Pagination]}
             className="mySwiper"
+            
           >
 
             {projectsData.map((project, index) => {
               return (
                 <SwiperSlide key={index}>
                   <div
-                    className="w-full mx-auto max-w-3xl flex flex-col min-h-[26rem] lg:min-h-[33rem] max-h-[20rem] lg:max-h-[30rem]  mb-12"
+                    className="w-full mx-auto max-w-3xl flex flex-col min-h-[28.5rem] lg:min-h-[36rem] 2xl:min-h-[39rem] max-h-[20rem] lg:max-h-[30rem]  mb-12"
                   > 
                     <ProjectCard project={project} />
                   </div>

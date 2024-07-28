@@ -1,4 +1,4 @@
-
+import realstate from '../../public/image/real-estate.jpg'
 
 export const projectsData = [
     {
@@ -10,7 +10,7 @@ export const projectsData = [
         role: 'Full Stack Developer',
         code: '',
         demo: 'https://wanderpack.onrender.com/',
-        image: '',
+        image: realstate,
     },
     {
         id: 2,
