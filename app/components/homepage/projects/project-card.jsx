@@ -44,7 +44,7 @@ function ProjectCard({ project }) {
               onClick={() => setIsCodePreview(true)}
             >
               <FaCode
-                size={20}
+                size={18}
                 color={isCodePreview ? 'black' : 'white'}
                 className='scale-125'
               />
@@ -55,7 +55,7 @@ function ProjectCard({ project }) {
               onClick={() => setIsCodePreview(false)}
             >
               <VscPreview
-                size={20}
+                size={18}
                 color={!isCodePreview ? 'black' : 'white'}
                 className='scale-125'
               />

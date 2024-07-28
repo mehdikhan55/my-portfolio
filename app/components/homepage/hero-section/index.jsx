@@ -134,6 +134,8 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">JavaScript</span>
                 <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">TypeScript</span>
+                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">CSS</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Tailwind CSS</span>
