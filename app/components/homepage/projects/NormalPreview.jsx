@@ -36,7 +36,7 @@ const NormalPreview = ({ project }) => {
                     {
                         project.tools.map((tool, index) => {
                             return (
-                                <span key={index} className="text-xs md:text-sm lg:text-sm text-[#16f2b3] bg-[#2d2469] px-2 py-1 rounded-md">{tool}</span>
+                                <span key={index} className="text-xs md:text-sm lg:text-base text-[#16f2b3] bg-[#2d2469] px-2 py-1 rounded-md">{tool}</span>
                             )
                         })
                     }

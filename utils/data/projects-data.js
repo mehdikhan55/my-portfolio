@@ -1,4 +1,5 @@
 import realstate from '../../public/image/real-estate.jpg'
+import carRental from '../../public/image/carRental.png'
 
 export const projectsData = [
     {
@@ -14,6 +15,17 @@ export const projectsData = [
     },
     {
         id: 2,
+        name: 'PrimeRides',
+        subTitle: 'A Car Rental Application With Advanced Search, Filtering, and Pagination Features',
+        description: "Built a responsive car rental web application using to deliver a seamless and modern user experience.\nIntegrated real-time data fetching from Rapid API to provide up-to-date car availability and pricing information.\nImplemented advanced features such as search functionality, dynamic filters, and a \"view more\" pagination option to enhance user navigation and interaction.",
+        tools: ['NextJS', "TypeScript", 'Tailwind CSS', 'Headless UI', 'Rapid API'],
+        role: 'Full Stack Developer',
+        code: '',
+        demo: 'https://wanderpack.onrender.com/',
+        image: carRental,
+    },
+    {
+        id: 3,
         name: 'Translit',
         subTitle: 'GPT- Powered Language Translating SAAS Application',
         description: 'Built and maintained a password-protected web app powered by GPT, enabling seamless language translations for users.\nEnhanced the efficiency of a Legal Translation Company by 50%, streamlining their translation processes.\nImproved UX by providing customizable options for input and output languages, document types, and GPT versions.',
@@ -24,7 +36,7 @@ export const projectsData = [
         image: '',
     },
     {
-        id: 3,
+        id: 4,
         name: 'Kill Code',
         subTitle: 'Web Dev Sandbox: HTML, CSS, JS Editor and Tester in Browser (CodePen Clone)',
         description: 'Developed a dynamic web application that enables users to write, edit, and test HTML, CSS, and JavaScript code seamlessly within their browser environment.\nIntroduced real-time rendering: Allows users to witness immediate output on the same webpage while coding, enhancing the interactive coding experience.',
@@ -35,7 +47,7 @@ export const projectsData = [
         image: '',
     },
     {
-        id: 4,
+        id: 5,
         name: 'SUMZ',
         subTitle: 'AI-Powered Article Summarizer Web App',
         description: "Built an AI-Powered app enabling users to input blog or web page links and receive concise summaries of the content.\nIntroduced a user-friendly feature to track summary history and associated URLs, using the web browser's local storage.",
@@ -46,7 +58,7 @@ export const projectsData = [
         role: 'Full Stack Developer',
     },
     {
-        id: 5,
+        id: 6,
         name: 'iNature',
         subTitle: 'Forest Monitoring System',
         description: "Led a 5-member team and developed an academic project on the concept of a Forest Monitoring System aimed at promoting environmental conservation and awareness.\nIntroduced a unique functionality allowing users to seamlessly switch between single and double map previews for comparative analysis between two different locations.",
@@ -57,7 +69,7 @@ export const projectsData = [
         role: 'Full Stack Developer',
     },
     {
-        id: 6,
+        id: 7,
         name: 'Note It',
         subTitle: 'Note-Taking Cross-Platform Mobile Application',
         description: "Built fully functional Note-Taking Mobile Application using React Native, featuring CRUD operations and authentication. \nEnsured the security and accessibility of notes by using Firebase for the backend, providing a reliable storage solution. \nEsured the security and accessibility of notes by using Firebase for the backend, providing a reliable storage solution.",
